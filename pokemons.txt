@@ -1,5 +1,23 @@
-146
+152
 0
+Missigno
+Null
+0
+0
+0
+0
+0
+0
+1
+Bulbasaur
+Grass
+196
+228
+196
+228
+293
+100
+2
 Ivysaur
 Grass
 222
@@ -8,7 +26,7 @@ Grass
 258
 323
 100
-1
+3
 Venusaur
 Grass
 262
@@ -17,7 +35,7 @@ Grass
 298
 363
 100
-2
+4
 Charmander
 Fire
 202
@@ -26,7 +44,7 @@ Fire
 198
 281
 100
-3
+5
 Charmeleon
 Fire
 226
@@ -35,7 +53,7 @@ Fire
 228
 319
 100
-4
+6
 Charizard
 Fire
 266
@@ -44,7 +62,7 @@ Fire
 268
 359
 100
-5
+7
 Squirtle
 Water
 194
@@ -53,7 +71,7 @@ Water
 198
 291
 100
-6
+8
 Wartortle
 Water
 224
@@ -62,7 +80,7 @@ Water
 228
 321
 100
-7
+9
 Blastoise
 Water
 264
@@ -71,7 +89,7 @@ Water
 268
 361
 100
-8
+10
 Caterpie
 Bug
 158
@@ -80,7 +98,7 @@ Bug
 138
 293
 100
-9
+11
 Metapod
 Bug
 138
@@ -89,7 +107,7 @@ Bug
 148
 303
 100
-10
+12
 Butterfree
 Bug
 188
@@ -98,7 +116,7 @@ Bug
 258
 323
 100
-11
+13
 Weedle
 Bug
 168
@@ -107,7 +125,7 @@ Bug
 138
 283
 100
-12
+14
 Kakuna
 Bug
 148
@@ -116,7 +134,7 @@ Bug
 148
 293
 100
-13
+15
 Beedrill
 Bug
 258
@@ -125,7 +143,7 @@ Bug
 188
 333
 100
-14
+16
 Pidgey
 Normal
 188
@@ -134,7 +152,7 @@ Normal
 168
 283
 100
-15
+17
 Pidgeotto
 Normal
 218
@@ -143,7 +161,7 @@ Normal
 198
 329
 100
-16
+18
 Pidgeot
 Normal
 258
@@ -152,7 +170,7 @@ Normal
 238
 369
 100
-17
+19
 Rattata
 Normal
 210
@@ -161,7 +179,7 @@ Normal
 148
 263
 100
-18
+20
 Raticate
 Normal
 260
@@ -170,7 +188,7 @@ Normal
 198
 313
 100
-19
+21
 Spearow
 Normal
 218
@@ -179,7 +197,7 @@ Normal
 160
 283
 100
-20
+22
 Fearow
 Normal
 278
@@ -188,7 +206,7 @@ Normal
 220
 333
 100
-21
+23
 Ekans
 Poison
 218
@@ -197,7 +215,7 @@ Poison
 178
 273
 100
-22
+24
 Arbok
 Poison
 268
@@ -206,7 +224,7 @@ Poison
 228
 323
 100
-23
+25
 Pikachu
 Electric
 208
@@ -215,7 +233,7 @@ Electric
 198
 273
 100
-24
+26
 Raichu
 Electric
 278
@@ -224,7 +242,7 @@ Electric
 278
 323
 100
-25
+27
 Sandshrew
 Ground
 248
@@ -233,7 +251,7 @@ Ground
 158
 303
 100
-26
+28
 Sandslash
 Ground
 298
@@ -242,7 +260,7 @@ Ground
 208
 353
 100
-27
+29
 Nidoran(F)
 Poison
 192
@@ -251,7 +269,7 @@ Poison
 178
 313
 100
-28
+30
 Nidorina
 Poison
 222
@@ -260,7 +278,7 @@ Poison
 208
 343
 100
-29
+31
 Nidoqueen
 Poison
 262
@@ -269,7 +287,7 @@ Poison
 248
 383
 100
-30
+32
 Nidoran(M)
 Poison
 212
@@ -278,7 +296,7 @@ Poison
 178
 295
 100
-31
+33
 Nidorino
 Poison
 242
@@ -287,7 +305,7 @@ Poison
 208
 325
 100
-32
+34
 Nidoking
 Poison
 282
@@ -296,7 +314,7 @@ Poison
 248
 365
 100
-33
+35
 Clefairy
 Fairy
 188
@@ -305,7 +323,7 @@ Fairy
 218
 343
 100
-34
+36
 Clefable
 Fairy
 238
@@ -314,7 +332,7 @@ Fairy
 268
 393
 100
-35
+37
 Vulpix
 Fire
 180
@@ -323,7 +341,7 @@ Fire
 228
 279
 100
-36
+38
 Ninetales
 Fire
 250
@@ -332,7 +350,7 @@ Fire
 298
 349
 100
-37
+39
 Jigglypuff
 Fairy
 188
@@ -341,7 +359,7 @@ Fairy
 148
 433
 100
-38
+40
 Wigglytuff
 Fairy
 238
@@ -350,7 +368,7 @@ Fairy
 198
 483
 100
-39
+41
 Zubat
 Poison
 188
@@ -359,7 +377,7 @@ Poison
 178
 283
 100
-40
+42
 Golbat
 Poison
 258
@@ -368,7 +386,7 @@ Poison
 248
 353
 100
-41
+43
 Oddish
 Grass
 198
@@ -377,7 +395,7 @@ Grass
 248
 293
 100
-42
+44
 Gloom
 Grass
 228
@@ -386,7 +404,7 @@ Grass
 268
 323
 100
-43
+45
 Vileplume
 Grass
 258
@@ -395,7 +413,7 @@ Grass
 298
 353
 100
-44
+46
 Paras
 Bug
 238
@@ -404,7 +422,7 @@ Bug
 208
 273
 100
-45
+47
 Parasect
 Bug
 288
@@ -413,7 +431,7 @@ Bug
 258
 323
 100
-46
+48
 Venonat
 Bug
 208
@@ -422,7 +440,7 @@ Bug
 178
 323
 100
-47
+49
 Venomoth
 Bug
 228
@@ -431,7 +449,7 @@ Bug
 278
 343
 100
-48
+50
 Diglett
 Ground
 208
@@ -440,7 +458,7 @@ Ground
 188
 223
 100
-49
+51
 Dugtrio
 Ground
 258
@@ -449,7 +467,7 @@ Ground
 238
 273
 100
-50
+52
 Meowth
 Normal
 188
@@ -458,7 +476,7 @@ Normal
 178
 283
 100
-51
+53
 Persian
 Normal
 238
@@ -467,7 +485,7 @@ Normal
 228
 333
 100
-52
+54
 Psyduck
 Water
 202
@@ -476,7 +494,7 @@ Water
 198
 303
 100
-53
+55
 Golduck
 Water
 262
@@ -485,7 +503,7 @@ Water
 258
 363
 100
-54
+56
 Mankey
 Fighting
 258
@@ -494,7 +512,7 @@ Fighting
 168
 283
 100
-55
+57
 Primeape
 Fighting
 308
@@ -503,7 +521,7 @@ Fighting
 218
 333
 100
-56
+58
 Growlithe
 Fire
 238
@@ -512,7 +530,7 @@ Fire
 198
 313
 100
-57
+59
 Arcanine
 Fire
 318
@@ -521,7 +539,7 @@ Fire
 258
 383
 100
-58
+60
 Poliwag
 Water
 198
@@ -530,7 +548,7 @@ Water
 178
 283
 100
-59
+61
 Poliwhirl
 Water
 228
@@ -539,7 +557,7 @@ Water
 198
 333
 100
-60
+62
 Poliwrath
 Water
 268
@@ -548,7 +566,7 @@ Water
 238
 383
 100
-61
+63
 Abra
 Psychic
 138
@@ -557,7 +575,7 @@ Psychic
 308
 253
 100
-62
+64
 Kadabra
 Psychic
 168
@@ -566,7 +584,7 @@ Psychic
 338
 283
 100
-63
+65
 Alakazam
 Psychic
 198
@@ -575,7 +593,7 @@ Psychic
 368
 313
 100
-64
+66
 Machop
 Fighting
 258
@@ -584,7 +602,7 @@ Fighting
 168
 343
 100
-65
+67
 Machoke
 Fighting
 298
@@ -593,7 +611,7 @@ Fighting
 198
 363
 100
-66
+68
 Machamp
 Fighting
 358
@@ -602,7 +620,7 @@ Fighting
 228
 383
 100
-67
+69
 Bellsprout
 Grass
 248
@@ -611,7 +629,7 @@ Grass
 238
 303
 100
-68
+70
 Weepinbell
 Grass
 278
@@ -620,7 +638,7 @@ Grass
 268
 333
 100
-69
+71
 Victreebel
 Grass
 308
@@ -629,7 +647,7 @@ Grass
 298
 363
 100
-70
+72
 Tentacool
 Water
 178
@@ -638,7 +656,7 @@ Water
 298
 283
 100
-71
+73
 Tentacruel
 Water
 238
@@ -647,7 +665,7 @@ Water
 338
 363
 100
-72
+74
 Geodude
 Rock
 258
@@ -656,7 +674,7 @@ Rock
 158
 283
 100
-73
+75
 Graveler
 Rock
 288
@@ -665,7 +683,7 @@ Rock
 188
 313
 100
-74
+76
 Golem
 Rock
 318
@@ -674,7 +692,7 @@ Rock
 208
 363
 100
-75
+77
 Ponyta
 Fire
 268
@@ -683,7 +701,7 @@ Fire
 228
 303
 100
-76
+78
 Rapidash
 Fire
 298
@@ -692,7 +710,7 @@ Fire
 258
 333
 100
-77
+79
 Slowpoke
 Water
 228
@@ -701,7 +719,7 @@ Water
 178
 383
 100
-78
+80
 Slowbro
 Water
 248
@@ -710,7 +728,7 @@ Water
 258
 393
 100
-79
+81
 Magnemite
 Electric
 168
@@ -719,7 +737,7 @@ Electric
 288
 253
 100
-80
+82
 Magneton
 Electric
 218
@@ -728,7 +746,7 @@ Electric
 338
 303
 100
-81
+83
 Farfetch'd
 Normal
 228
@@ -737,7 +755,7 @@ Normal
 214
 307
 100
-82
+84
 Doduo
 Normal
 268
@@ -746,7 +764,7 @@ Normal
 168
 273
 100
-83
+85
 Dodrio
 Normal
 318
@@ -755,7 +773,7 @@ Normal
 218
 323
 100
-84
+86
 Seel
 Water
 188
@@ -764,7 +782,7 @@ Water
 238
 333
 100
-85
+87
 Dewgong
 Water
 238
@@ -773,7 +791,7 @@ Water
 288
 383
 100
-86
+88
 Grimer
 Poison
 258
@@ -782,7 +800,7 @@ Poison
 178
 363
 100
-87
+89
 Muk
 Poison
 308
@@ -791,7 +809,7 @@ Poison
 228
 413
 100
-88
+90
 Shellder
 Water
 228
@@ -800,7 +818,7 @@ Water
 188
 263
 100
-89
+91
 Cloyster
 Water
 288
@@ -809,7 +827,7 @@ Water
 268
 303
 100
-90
+92
 Gastly
 Ghost
 168
@@ -818,7 +836,7 @@ Ghost
 298
 263
 100
-91
+93
 Haunter
 Ghost
 198
@@ -827,7 +845,7 @@ Ghost
 328
 293
 100
-92
+94
 Gengar
 Ghost
 228
@@ -836,7 +854,7 @@ Ghost
 358
 323
 100
-93
+95
 Onix
 Rock
 188
@@ -845,7 +863,7 @@ Rock
 158
 273
 100
-94
+96
 Drowzee
 Psychic
 194
@@ -854,7 +872,7 @@ Psychic
 278
 323
 100
-95
+97
 Hypno
 Psychic
 244
@@ -863,7 +881,7 @@ Psychic
 328
 373
 100
-96
+98
 Krabby
 Water
 308
@@ -872,7 +890,7 @@ Water
 148
 263
 100
-97
+99
 Kingler
 Water
 358
@@ -881,7 +899,7 @@ Water
 198
 313
 100
-98
+100
 Voltorb
 Electric
 158
@@ -890,7 +908,16 @@ Electric
 208
 283
 100
-99
+101
+Electrode
+Electric
+198
+258
+238
+258
+323
+100
+102
 Exeggcute
 Grass
 178
@@ -899,7 +926,7 @@ Grass
 218
 323
 100
-100
+103
 Exeggutor
 Grass
 288
@@ -908,7 +935,7 @@ Grass
 348
 393
 100
-101
+104
 Cubone
 Ground
 198
@@ -917,7 +944,7 @@ Ground
 178
 303
 100
-102
+105
 Marowak
 Ground
 258
@@ -926,7 +953,7 @@ Ground
 198
 323
 100
-103
+106
 Hitmonlee
 Fighting
 338
@@ -935,7 +962,7 @@ Fighting
 168
 303
 100
-104
+107
 Hitmonchan
 Fighting
 308
@@ -944,7 +971,7 @@ Fighting
 168
 303
 100
-105
+108
 Lickitung
 Normal
 208
@@ -953,7 +980,7 @@ Normal
 218
 383
 100
-106
+109
 Koffing
 Poison
 228
@@ -962,7 +989,7 @@ Poison
 218
 283
 100
-107
+110
 Weezing
 Poison
 278
@@ -971,7 +998,7 @@ Poison
 268
 333
 100
-108
+111
 Rhyhorn
 Ground
 268
@@ -980,7 +1007,7 @@ Ground
 158
 363
 100
-109
+112
 Rhydon
 Ground
 358
@@ -989,7 +1016,7 @@ Ground
 188
 413
 100
-110
+113
 Chansey
 Normal
 108
@@ -998,7 +1025,7 @@ Normal
 308
 703
 100
-111
+114
 Tangela
 Grass
 208
@@ -1007,7 +1034,7 @@ Grass
 298
 333
 100
-112
+115
 Kangaskhan
 Normal
 288
@@ -1016,7 +1043,7 @@ Normal
 178
 413
 100
-113
+116
 Horsea
 Water
 178
@@ -1025,7 +1052,7 @@ Water
 238
 263
 100
-114
+117
 Seadra
 Water
 228
@@ -1034,7 +1061,7 @@ Water
 288
 313
 100
-115
+118
 Goldeen
 Water
 232
@@ -1043,7 +1070,7 @@ Water
 198
 293
 100
-116
+119
 Seaking
 Water
 282
@@ -1052,7 +1079,7 @@ Water
 258
 363
 100
-117
+120
 Staryu
 Water
 188
@@ -1061,7 +1088,7 @@ Water
 238
 263
 100
-118
+121
 Starmie
 Water
 248
@@ -1070,7 +1097,7 @@ Water
 298
 323
 100
-119
+122
 Mr.Mime
 Psychic
 188
@@ -1079,7 +1106,7 @@ Psychic
 298
 283
 100
-120
+123
 Scyther
 Bug
 318
@@ -1088,7 +1115,7 @@ Bug
 208
 343
 100
-121
+124
 Jynx
 Ice
 198
@@ -1097,7 +1124,7 @@ Ice
 288
 333
 100
-122
+125
 Electabuzz
 Electric
 264
@@ -1106,7 +1133,7 @@ Electric
 268
 333
 100
-123
+126
 Magmar
 Fire
 288
@@ -1115,7 +1142,7 @@ Fire
 268
 333
 100
-124
+127
 Pinsir
 Bug
 348
@@ -1124,7 +1151,7 @@ Bug
 208
 333
 100
-125
+128
 Tauros
 Normal
 298
@@ -1133,7 +1160,7 @@ Normal
 238
 353
 100
-126
+129
 Magikarp
 Water
 118
@@ -1142,7 +1169,7 @@ Water
 138
 243
 100
-127
+130
 Gyarados
 Water
 348
@@ -1151,7 +1178,7 @@ Water
 298
 393
 100
-128
+131
 Lapras
 Water
 268
@@ -1160,7 +1187,7 @@ Water
 288
 463
 100
-129
+132
 Ditto
 Normal
 194
@@ -1169,7 +1196,7 @@ Normal
 194
 299
 100
-130
+133
 Eevee
 Normal
 208
@@ -1178,7 +1205,7 @@ Normal
 228
 313
 100
-131
+134
 Vaporeon
 Water
 228
@@ -1187,7 +1214,7 @@ Water
 318
 463
 100
-132
+135
 Jolteon
 Electric
 228
@@ -1196,7 +1223,7 @@ Electric
 318
 333
 100
-133
+136
 Flareon
 Fire
 358
@@ -1205,7 +1232,7 @@ Fire
 318
 333
 100
-134
+137
 Porygon
 Normal
 218
@@ -1214,7 +1241,7 @@ Normal
 248
 333
 100
-135
+138
 Omanyte
 Rock
 178
@@ -1223,7 +1250,7 @@ Rock
 278
 273
 100
-136
+139
 Omastar
 Rock
 218
@@ -1232,7 +1259,7 @@ Rock
 328
 343
 100
-137
+140
 Kabuto
 Rock
 258
@@ -1241,7 +1268,7 @@ Rock
 188
 263
 100
-138
+141
 Kabutops
 Rock
 328
@@ -1250,7 +1277,7 @@ Rock
 238
 323
 100
-139
+142
 Aerodactyl
 Rock
 308
@@ -1259,7 +1286,7 @@ Rock
 218
 363
 100
-140
+143
 Snorlax
 Normal
 318
@@ -1268,7 +1295,7 @@ Normal
 228
 523
 100
-141
+144
 Articuno
 Ice
 268
@@ -1277,7 +1304,7 @@ Ice
 348
 383
 100
-142
+145
 Zapdos
 Electric
 278
@@ -1286,7 +1313,16 @@ Electric
 348
 383
 100
-143
+146
+Moltres
+Fire
+298
+348
+278
+348
+383
+100
+147
 Dratini
 Dragon
 226
@@ -1295,7 +1331,7 @@ Dragon
 198
 285
 100
-144
+148
 Dragonair
 Dragon
 266
@@ -1304,7 +1340,16 @@ Dragon
 238
 325
 100
-145
+149
+Dragonite
+Dragon
+366
+298
+288
+298
+385
+100
+150
 Mewtwo
 Psychic
 318
@@ -1312,4 +1357,13 @@ Psychic
 278
 406
 415
+100
+151
+Mew
+Psychic
+298
+298
+298
+298
+403
 100

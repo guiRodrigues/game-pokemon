@@ -20,7 +20,7 @@ void CreatePokemon(){
 
     POKEMON pokemon;
 
-    int id=0;
+    int id=0, type=0;
 
     fstream file;
 
@@ -32,11 +32,85 @@ void CreatePokemon(){
     pokemon.id = id;
     cout << "Digite o nome do Pokemon: ";
     cin >> pokemon.name;
-    cout << "Digite o elemento do Pokemon (E | F | P | T | A): ";
 
-// Colcar todos os tipos e o usuário digitar um num de 0 a 9 para registrar! ex: 1-Fire; 2-Rock...
+    cout
+    << "Digite o elemento do Pokemon: "
+    << "1 - Bug\n"
+    << "2 - Dragon\n" 
+    << "3 - Electric\n"
+    << "4 - Fairy\n"
+    << "5 - Fighting\n"
+    << "6 - Fire\n"
+    << "7 - Ghost\n"
+    << "8 - Grass\n"
+    << "9 - Ground\n"
+    << "10 - Ice\n"
+    << "11 - Normal\n"
+    << "12 - Poison\n"
+    << "13 - Psychic\n"
+    << "14 - Rock\n"
+    << "15 - Steel\n"
+    << "16 - Water\n";
+    
+    cin >> type;
 
-    cin >> pokemon.element;
+    while(type < 1 || type > 16){
+        cout << "Número Invalido" << endl;
+        cin >> type; 
+    }
+
+    switch(type){
+        case 1:
+            pokemon.element = "Bug";
+            break;
+        case 2:
+            pokemon.element = "Dragon";
+            break;
+        case 3:
+            pokemon.element = "Electric";
+            break;
+        case 4:
+            pokemon.element = "Fighting";
+            break;
+        case 5:
+            pokemon.element = "Fairy";
+            break;
+        case 6:
+            pokemon.element = "Fire";
+            break;
+        case 7:
+            pokemon.element = "Ghost";
+            break;
+        case 8:
+            pokemon.element = "Grass";
+            break;
+        case 9:
+            pokemon.element = "Ground";
+            break;
+        case 10:
+            pokemon.element = "Ice";
+            break;
+        case 11:
+            pokemon.element = "Normal";
+            break;
+        case 12:
+            pokemon.element = "Poison";
+            break;
+        case 13:
+            pokemon.element = "Psychic";
+            break;
+        case 14:
+            pokemon.element = "Rock";
+            break;
+        case 15:
+            pokemon.element = "Steel";
+            break;
+        case 16:
+            pokemon.element = "Water";
+    }
+
+// vet["Grass", "Rock", "Ground"...] vet[digitado];
+
     cout << "Digite o nivel de ataque fisico do Pokemon: ";
     cin >> pokemon.attack;
     cout << "Digite o nivel de ataque magico do Pokemon: ";
