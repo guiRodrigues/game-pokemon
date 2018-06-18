@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    Choose();
+    Menu();
 
     return 0;
 }
