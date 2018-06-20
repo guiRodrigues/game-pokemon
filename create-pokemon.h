@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <ctime>
 
 using namespace std;
 
@@ -15,6 +16,183 @@ struct POKEMON{
     int hp;
     int sp;
 };
+
+void CompareType(float &pMult, float &mMult, string typePlayer, string typeMachine){
+
+    if(typePlayer=="Bug"){
+        if(typeMachine=="Dark" || typeMachine=="Grass" || typeMachine=="Psychic"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Fire" || typeMachine=="Fighting" || typeMachine=="Poison" || typeMachine=="Flying" || typeMachine=="Ghost" || typeMachine=="Steel" || typeMachine=="Fairy"){
+            pMult = 0.5;
+        }
+    }
+
+    else if(typePlayer=="Dragon"){
+        if(typeMachine=="Dragon"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Stell"){
+            pMult = 0.5;
+        }
+        else if(typeMachine=="Fairy"){
+            pMult = 0.2;
+        }
+    }
+
+    else if(typePlayer=="Electric"){
+        if(typeMachine=="Water" || typeMachine == "Flying"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Grass" || typeMachine=="Electric" || typeMachine=="Dragon"){
+            pMult = 0.5;
+        }
+        else if(typeMachine=="Ground"){
+            pMult = 0.2;
+        }
+    }
+
+    else if(typePlayer=="Fairy"){
+        if(typeMachine=="Dark" || typeMachine=="Dragon" || typeMachine=="Fighting"){
+            pMult = 2;
+        }
+        else if(typeMachine == "Poison" || typeMachine=="Steel" || typeMachine=="Fire"){
+            pMult = 0.5;
+        }
+    }
+
+    else if(typePlayer=="Fighting"){
+        if(typeMachine=="Dark" || typeMachine=="Ice" || typeMachine=="Normal" || typeMachine=="Rock" || typeMachine=="Steel"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Poison" || typeMachine=="Flying" || typeMachine=="Psychic" || typeMachine=="Bug" || typeMachine=="Fairy"){
+            pMult = 0.5;
+        }
+        else if(typeMachine=="Ghost"){
+            pMult = 0.2;
+        }
+    }
+
+    else if(typePlayer=="Fire"){
+        if(typeMachine=="Bug" || typeMachine=="Grass" || typeMachine=="Ice" || typeMachine=="Steel"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Fire" || typeMachine=="Ground" || typeMachine=="Rock" || typeMachine=="Water"){
+            pMult = 0.5;
+        }
+    }
+
+    else if(typePlayer=="Flying"){
+        if(typeMachine=="Bug" || typeMachine=="Fighting" || typeMachine=="Grass"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Electric" || typeMachine=="Rock" || typeMachine=="Steel"){
+            pMult = 0.5;
+        }
+    }
+
+    else if(typePlayer=="Ghost"){
+        if(typeMachine=="Ghost" || typeMachine=="Psychic"){
+            pMult = 2;
+        }
+        if(typeMachine=="Dark"){
+            pMult = 0.5;
+        }
+        else if(typeMachine=="Normal"){
+            pMult = 0.2;
+        }
+    }
+
+    else if(typePlayer=="Grass"){
+        if(typeMachine=="Ground" || typeMachine=="Rock" || typeMachine=="Water"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Bug" || typeMachine=="Fire" || typeMachine=="Flying" || typeMachine=="Ice" || typeMachine=="Poison" || typeMachine=="Dragon" || typeMachine=="Steel"){
+            pMult = 0.5;
+        }
+    }
+
+    else if(typePlayer=="Ground"){
+        if(typeMachine=="Electric" || typeMachine=="Fire" || typeMachine=="Poison" || typeMachine=="Rock" || typeMachine=="Steel"){
+            pMult = 2;
+        }
+        if(typeMachine=="Grass" || typeMachine=="Bug"){
+            pMult = 0.5;
+        }
+        else if(typeMachine=="Flying"){
+            pMult = 0.2;
+        }
+    }
+
+    else if(typePlayer=="Ice"){
+        if(typeMachine=="Dragon" || typeMachine=="Flying" || typeMachine=="Grass" || typeMachine=="Ground"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Grass" || typeMachine=="Bug"){
+            pMult = 0.5;
+        }
+    }
+
+    else if(typePlayer=="Normal"){
+        if(typeMachine=="Rock" || typeMachine=="Stell"){
+            pMult = 0.5;
+        }
+        else if(typeMachine=="Ghost"){
+            pMult = 0.2;
+        }
+    }    
+
+    else if(typePlayer=="Poison"){
+        if(typeMachine=="Fairy" || typeMachine=="Grass"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Ground" || typeMachine=="Poison" || typeMachine=="Rock" || typeMachine=="Ghost"){
+            pMult = 0.5;
+        }
+        else if(typeMachine=="Steel"){
+            pMult = 0.2;
+        }
+    }
+
+    else if(typePlayer=="Psychic"){
+        if(typeMachine=="Fight" || typeMachine=="Poison"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Psychic" || typeMachine=="Stell"){
+            pMult = 0.5;
+        }
+        else if(typeMachine=="Dark"){
+            pMult = 0.2;
+        }
+    }
+
+    else if(typePlayer=="Rock"){
+        if(typeMachine=="Bug" || typeMachine=="Fire" || typeMachine=="Flying" || typeMachine=="Ice"){
+            pMult = 2;
+        }
+        else  if(typeMachine=="Fighting" || typeMachine=="Ground" || typeMachine=="Steel"){
+            pMult = 0.5;
+        }
+    }
+
+    else if(typePlayer=="Steel"){
+        if(typeMachine=="Fairy" || typeMachine=="Ice" || typeMachine=="Rock"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Water" || typeMachine=="Electric" || typeMachine=="Steel"){
+            pMult = 0.5;
+        }
+    }
+
+    else if(typePlayer=="Water"){
+        if(typeMachine=="Fairy" || typeMachine=="Ice" || typeMachine=="Rock"){
+            pMult = 2;
+        }
+        else if(typeMachine=="Water" || typeMachine=="Electric" || typeMachine=="Steel"){
+            pMult = 0.5;
+        }
+    }
+}
 
 void CreatePokemon(){
 
@@ -241,12 +419,11 @@ void FullList(){
 }
 
 void DeletePokemon(){
-    fstream file;
-
     int pokemonsNumber = 0;
     int deleteId = 0;
     string deletePoke = "\0";
 
+    fstream file;
     file.open("pokemons.txt", ios::in | ios::out);
 
     file >> pokemonsNumber;
@@ -327,11 +504,14 @@ void DeletePokemon(){
 }
 
 void ChoosePokemons(POKEMON * player, POKEMON * machine){
+    srand(time(NULL));
+    bool ok=1;
+    int pokemonsNumber=0, randle=0;
+    int * machineId = new int[6];
 
     fstream file;
     file.open("pokemons.txt", ios::in | ios::out);
 
-    int pokemonsNumber = 0;
     file >> pokemonsNumber;
 
     POKEMON * pokedex = new POKEMON [pokemonsNumber];
@@ -352,12 +532,13 @@ void ChoosePokemons(POKEMON * player, POKEMON * machine){
     SimpleList();
 
     for(int i=0; i<6; i++){
-
         // PLayer
         int choose=0;
+        ok=1;
+
         cout << "Digite o ID do " << i+1 << " Pokemon:" << endl;
         cin >> choose;
-
+ 
         while(choose<0 || choose>pokemonsNumber-1){
             cout << "Escolha um Id valido: ";
             cin >> choose;
@@ -376,10 +557,16 @@ void ChoosePokemons(POKEMON * player, POKEMON * machine){
         player[i].hp = pokedex[choose].hp;
         player[i].sp = pokedex[choose].sp;
 
-        cout << "Ash escolheu " << player[i].name << endl;
+        for(int j=1; j<=i; j++){
+            if(player[j-1].id == choose){
+                cout << "Voce ja escolheu esse Pokemon, tente novamente." << endl;
+                ok=0;
+                i--;
+            }
+        }
 
         // Machine
-        int randle = rand() % pokemonsNumber;
+        randle = rand() % pokemonsNumber;
 
         machine[i].id = pokedex[randle].id;
         machine[i].name = pokedex[randle].name;
@@ -391,7 +578,16 @@ void ChoosePokemons(POKEMON * player, POKEMON * machine){
         machine[i].hp = pokedex[randle].hp;
         machine[i].sp = pokedex[randle].sp;
 
-        cout << "Gary escolheu " << machine[i].name << endl << endl; 
+        for(int j=1; j<=i; j++){
+            while(machineId[j-1]==machine[i].id){
+                randle = rand() % pokemonsNumber;
+            }
+        }
+
+        if(ok){
+            cout << "Ash escolheu " << player[i].name << endl
+            << "Gary escolheu " << machine[i].name << endl << endl;
+        }
     }
 }
 
@@ -404,6 +600,9 @@ void Battle(){
         int winner;
         int loser;
     };
+
+    int r=0, p=0, m=0, pTypeAtk=0, mTypeAtk=0, pp=0;
+    float pMult=1, mMult=1;
 
     fstream file;
     file.open("pokemons.txt", ios::in | ios::out);
@@ -435,54 +634,57 @@ void Battle(){
 
     cout << endl << "A batalha comecou!" << endl << endl;
 
-    int r=0, p=0, m=0, typeAtk=0;
-
     while(p<6 && m<6){
+        
+        CompareType(pMult, mMult, player[p].element, machine[m].element);
 
         cout
         << "Escolha o tipo de ataque: " << endl
         << "1 - Ataque Corporal" << endl
         << "2 - Ataque Especial" << endl;
 
-        cin >> typeAtk;
+        cin >> pTypeAtk;
         cout << endl;
 
-        while(typeAtk>2 || typeAtk<1){
+        while(pTypeAtk>2 || pTypeAtk<1){
             cout << "Ecolha 1 ou 2" << endl;
-            cin >> typeAtk;
+            cin >> pTypeAtk;
         }
 
-        if(typeAtk==1){
+        if(pTypeAtk==1){
             if(player[p].attack - machine[m].defese < player[p].attack*0.1){
-                machine[m].hp -= player[p].attack*0.1;
+                machine[m].hp -= (player[p].attack*0.1)*pMult;
             } else {
-                machine[m].hp -= player[p].attack - machine[m].defese;                
+                machine[m].hp -= (player[p].attack*pMult) - machine[m].defese;                
             }
             if(machine[m].hp < 0) cout << machine[m].name << " - HP " << 0 << endl;
             else cout << machine[m].name << " - HP " << machine[m].hp << endl;
         } else {
             if(player[p].magicalAttack - machine[m].magicalDefese < player[p].magicalAttack*0.1){
-                machine[m].hp -= player[p].magicalAttack*0.1;
+                machine[m].hp -= (player[p].magicalAttack*0.1)*pMult;
             } else {
-                machine[m].hp -= player[p].magicalAttack - machine[m].magicalDefese;
+                machine[m].hp -= (player[p].magicalAttack*pMult) - machine[m].magicalDefese;
             }
             if(machine[m].hp < 0) cout << machine[m].name << " - HP " << 0 << endl;
             else cout << machine[m].name << " - HP " << machine[m].hp << endl;
         }
 
-        if(typeAtk==1){
+        //srand(time(NULL));
+        mTypeAtk = rand()%2;
+
+        if(mTypeAtk==0){
             if(machine[m].attack - player[p].defese < machine[m].attack*0.1){
-                player[p].hp -= machine[m].attack*0.1;
+                player[p].hp -= (machine[m].attack*0.1)*mMult;
             } else {
-                player[p].hp -= machine[m].attack - player[p].defese;
+                player[p].hp -= (machine[m].attack*mMult) - player[p].defese;
             }
             if(player[p].hp<0) cout << player[p].name << " - HP " << 0 << endl << endl;
             else cout << player[p].name << " - HP " << player[p].hp << endl << endl;
         } else{
             if(machine[m].magicalAttack - player[p].magicalDefese < machine[m].magicalAttack*0.1){
-                player[p].hp -= machine[m].magicalAttack*0.1;
+                player[p].hp -= (machine[m].magicalAttack*0.1)*mMult;
             } else {
-                player[p].hp -= machine[m].magicalAttack - player[p].magicalDefese;
+                player[p].hp -= (machine[m].magicalAttack*mMult) - player[p].magicalDefese;
             }
             if(player[p].hp < 0)cout << player[p].name << " - HP " << 0 << endl << endl;
             else cout << player[p].name << " - HP " << player[p].hp << endl << endl;
@@ -510,6 +712,7 @@ void Battle(){
             r++;
             p++;
 
+            if(m<6) CompareType(pMult, mMult, player[p].element, machine[m].element);
             if(p<6) cout << player[p].name << " entrou na batalha!" << endl << endl;
         }
 
@@ -535,6 +738,7 @@ void Battle(){
             r++;            
             m++;
 
+            if(m<6) CompareType(pMult, mMult, player[p].element, machine[m].element);
             if(m<6) cout << machine[m].name << " entrou para enfrenta-lo!" << endl << endl;
         }
     }
@@ -608,7 +812,7 @@ void Menu(){
                 option='n';
                 break;
             default:
-                cout << "Opcao invalida";
+                cout << "Opcao invalida" << endl << endl;
                 Menu();
         }
     }

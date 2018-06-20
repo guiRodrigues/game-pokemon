@@ -1,5 +1,5 @@
 #include <iostream>
-#include "create-pokemon.h"
+#include "create-pokemon-b.h"
 
 using namespace std;
 
